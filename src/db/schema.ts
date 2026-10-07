@@ -68,4 +68,14 @@ const ticketHistory = pgTable('ticket_histories', {
     .notNull(),
 });
 
-export {roleType,documentType,statusTicketType,userTable,customerTable,ticketTable,commentTable,ticketHistory}
+export {
+  roleType,
+  documentType,
+  statusTicketType,
+  priorityType,
+  userTable,
+  customerTable,
+  ticketTable,
+  commentTable,
+  ticketHistory
+}
